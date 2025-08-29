@@ -1,0 +1,28 @@
+{
+    "kr": {
+      "menu": [
+        { "text": "홈", "to": "/" },
+        { "text": "소개", "to": "/about" },
+        { "text": "서비스", "to": "/services" },
+        { "text": "문의하기", "to": "/contact" }
+      ]
+    },
+    "en": {
+      "menu": [
+        { "text": "Home", "to": "/" },
+        { "text": "About", "to": "/about" },
+        { "text": "Services", "to": "/services" },
+        { "text": "Contact", "to": "/contact" }
+      ]
+    },
+    "cn": {
+      "menu": [
+        { "text": "首页", "to": "/" },
+        { "text": "关于我们", "to": "/about" },
+        { "text": "服务", "to": "/services" },
+        { "text": "联系", "to": "/contact" }
+      ]
+    }
+  }
+
+  
