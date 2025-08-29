@@ -1,25 +1,21 @@
-import navi from './data/global_navi.json';
-import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./layout/Layout";
+
+
 
 function App() {
-  const [leng, setLeng] = useState("en");
-
-/* *가벼운 화살표로 function 대신 */
-
   return (
-    <div className="App">
-      <button onClick={() => setLeng("en")}>영어</button>
-      <button onClick={() => setLeng("kr")}>한국어</button>
-      <button onClick={() => setLeng("cn")}>중국어</button>
-      <ul>
-        {
-          navi[leng]["menu"].map(
-            (v,i) => <li key={i}> { v.text} </li>
-          )
-        }
-      
-      </ul>
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<p>홈</p>} />
+          <Route path="/about" element={<p>소개</p>} />
+          <Route path="/services" element={<p>서비스</p>} />
+          <Route path="/contact" element={<p>문의하기</p>} />
+          <Route path="*" element={<p>404</p>} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

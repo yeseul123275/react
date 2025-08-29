@@ -1,26 +1,26 @@
 {
     "kr": {
       "menu": [
-        { "text": "홈", "to": "/" },
-        { "text": "소개", "to": "/about" },
-        { "text": "서비스", "to": "/services" },
-        { "text": "문의하기", "to": "/contact" }
+        { "text": "홈", "to": "/kr" },
+        { "text": "소개", "to": "/kr/about" },
+        { "text": "서비스", "to": "/kr/" },
+        { "text": "문의하기", "to": "/kr/contact" }
       ]
     },
     "en": {
       "menu": [
-        { "text": "Home", "to": "/" },
-        { "text": "About", "to": "/about" },
-        { "text": "Services", "to": "/services" },
-        { "text": "Contact", "to": "/contact" }
+        { "text": "Home", "to": "/en" },
+        { "text": "About", "to": "/en/about" },
+        { "text": "Services", "to": "/en/services" },
+        { "text": "Contact", "to": "/en/contact" }
       ]
     },
     "cn": {
       "menu": [
-        { "text": "首页", "to": "/" },
-        { "text": "关于我们", "to": "/about" },
-        { "text": "服务", "to": "/services" },
-        { "text": "联系", "to": "/contact" }
+        { "text": "首页", "to": "/cn" },
+        { "text": "关于我们", "to": "/cn/about" },
+        { "text": "服务", "to": "/cn/services" },
+        { "text": "联系", "to": "/cn/contact" }
       ]
     }
   }

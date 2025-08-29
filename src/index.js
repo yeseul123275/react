@@ -1,6 +1,7 @@
 
 import ReactDOM from 'react-dom/client';
 import Global from './App';
+import'bootstrap/dist/css/bootstrap.min.css';
 
 
 
